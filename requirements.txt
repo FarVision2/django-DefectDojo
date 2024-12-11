@@ -25,7 +25,7 @@ git+https://github.com/DefectDojo/django-tagging@develop#egg=django-tagging
 django-watson==1.6.3
 django-prometheus==2.3.1
 Django==4.1.13
-djangorestframework==3.14.0
+djangorestframework==3.15.2
 html2text==2020.1.16
 humanize==4.9.0
 jira==3.6.0
@@ -34,15 +34,15 @@ lxml==5.1.0
 Markdown==3.5.2
 mysqlclient==2.1.1
 openpyxl==3.1.2
-Pillow==10.2.0  # required by django-imagekit
+Pillow==10.3.0  # required by django-imagekit
 psycopg2-binary==2.9.9
-cryptography==42.0.4
+cryptography==44.0.0
 python-dateutil==2.8.2
 pytz==2024.1
 redis==5.0.1
-requests==2.31.0
+requests==2.32.2
 sqlalchemy==2.0.25  # Required by Celery broker transport
-urllib3==1.26.18
+urllib3==1.26.19
 uWSGI==2.0.23
 vobject==0.9.6.1
 whitenoise==5.2.0
